@@ -8,7 +8,7 @@
 
 ## 栗子
 >* export_laya目录：从unity中导出的两个测试场景根路径。Test0【场景中一个Cube】和Test1【场景中一个Cube和一个Shpere】。导出后资源体积多出一个Cube模型文件和一个默认材质文件。
->* export_merge目录：重新合并的路径。合并减掉了cube模型文件和默认材质文件。
+>* export_merge目录：重新合并的路径。合并减掉了cube模型文件和默认材质文件。节省了2.36kb。
 
 ## 使用
 >* 1，下载`LayaUnityMergeFile.py`文件  
