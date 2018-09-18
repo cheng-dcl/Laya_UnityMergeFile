@@ -5,8 +5,8 @@
     将laya unity导出工具产生的冗余的资源合并
     使用：
     命令：python LayaUnityMergeFile.py srcPath destPath
-    srcPath：laya unity插件工具设置的导出根路径
-    destName: （可选参数）另生成的根目录名，不填入则取原路径目录名
+    srcPath：laya unity插件工具设置的导出根路径，绝对路径
+    destName: 合并的根目录名，绝对路径
     File: LayaUnityMergeFile.py
     Author: dcl-Cheng   
 """
