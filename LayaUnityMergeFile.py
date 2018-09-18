@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) == 3:
         sourcePath = sys.argv[1].strip()
-        rootPath =  os.path.basename(sys.argv[2].strip())
+        rootPath =  sys.argv[2].strip()
 
     else:
         print("错误的参数 ，使用: python LayaUnityMergeFile.py srcPath destPath")
